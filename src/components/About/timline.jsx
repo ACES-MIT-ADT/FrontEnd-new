@@ -152,7 +152,7 @@ const Timeline = () => {
   
 
   return (
-    <div lassName="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white">
       
       <div className="bg-black text-white p-4 md:p-8 mt-32">
       

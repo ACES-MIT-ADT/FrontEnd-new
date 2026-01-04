@@ -9,6 +9,7 @@ import Home from "./components/Home/home";
 import About from "./components/About/About";
 import OurTeam from "./components/OurTeam/OurTeam";
 import ContactPage from "./components/ContactUs/contact";
+import PastEvents from "./components/PastEvents/PastEvents";
 import NavBar from "./components/NavBar";
 import Footer from "./components/footer";
 import EventRegistrationForm from "./components/form";
@@ -18,12 +19,13 @@ import { PageNotFound } from "./components/404";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="bg-black min-h-screen">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/our-Team" element={<OurTeam />} />
+          <Route path="/past-events" element={<PastEvents />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/register" element={<EventRegistrationForm />} />
           <Route path="/error" element={<PageNotFound />} />

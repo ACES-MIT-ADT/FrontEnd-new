@@ -66,6 +66,13 @@ const Navbar = () => {
             Our teams
           </Link>
           <Link
+            to="/past-events"
+            className="px-4 sm:px-6 md:px-3 lg:px-4 py-2 text-sm sm:text-base lg:text-lg font-medium text-white border border-purple-400 rounded-full hover:bg-purple-600 hover:text-black hover:border-transparent transition duration-300  sm:w-50% md:w-auto"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Past Events
+          </Link>
+          <Link
             to="/contact"
             className="px-4 sm:px-6 md:px-3 lg:px-4 py-2 text-sm sm:text-base lg:text-lg font-medium text-white border border-purple-400 rounded-full hover:bg-purple-600 hover:text-black hover:border-transparent transition duration-300  sm:w-50% md:w-auto"
             onClick={() => setIsMenuOpen(false)}
