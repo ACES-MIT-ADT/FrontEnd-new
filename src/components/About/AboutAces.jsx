@@ -22,7 +22,7 @@ const gradientConfig2 = {
 
 function AboutAces() {
   return (
-    <div className=" text-white text-center py-8 md:py-12 lg:py-16 relative">
+    <div className="bg-black text-white text-center py-8 md:py-12 lg:py-16 relative">
       <GradientBox {...gradientConfig1} />
       <h1 className="text-6xl md:text-8xl lg:text-7xl font-bold mb-4 md:mb-6 lg:mb-8 animate-riseUpSlow delay-75">
         ABOUT ACES

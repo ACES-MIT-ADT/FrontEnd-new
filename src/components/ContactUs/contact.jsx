@@ -122,7 +122,7 @@ const ContactPage = () => {
             <button
               type="submit"
               onClick={() => Submit(CName, CEmail, CMessage)}
-              className="bg-white text-black px-4 py-2 md:py-3 rounded-full font-bold transition duration-300 hover:bg-orchid hover:text-white"
+              className="bg-purple-600 text-white px-4 py-2 md:py-3 rounded-full font-bold transition duration-300 hover:bg-purple-700"
             >
               Submit
             </button>
@@ -167,7 +167,7 @@ const ContactPage = () => {
             <button
               type="submit"
               onClick={() => Blog(BName, BEmail, BMessage)}
-              className="bg-white text-black px-4 py-2 md:py-3 rounded-full font-bold transition duration-300 hover:bg-orchid hover:text-white"
+              className="bg-purple-600 text-white px-4 py-2 md:py-3 rounded-full font-bold transition duration-300 hover:bg-purple-700"
             >
               Request a Blog
             </button>
@@ -211,7 +211,7 @@ const ContactPage = () => {
             <span
               key={index}
               onClick={() => showTestimonial(index)}
-              className={`h-2 w-2 md:h-2.5 md:w-2.5 mx-1 bg-gray-500 rounded-full cursor-pointer ${index === currentIndex ? 'bg-white' : ''}`}
+              className={`h-2 w-2 md:h-2.5 md:w-2.5 mx-1 bg-gray-500 rounded-full cursor-pointer ${index === currentIndex ? 'bg-purple-500' : ''}`}
             ></span>
           ))}
         </div>
