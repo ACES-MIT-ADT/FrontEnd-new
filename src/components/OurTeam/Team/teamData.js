@@ -28,6 +28,16 @@ export const coreTeamMembers = [
     role: 'Treasurer',
     image: 'https://res.cloudinary.com/dtoxlqpkf/image/upload/v1767106083/Ishan_photo_hszdgk.jpg'
   },
+  {
+    name: 'Danika Patil',
+    role: 'Public Relations Officer',
+    image: '/images/Danika Patil.jpg'
+  },
+  {
+    name: 'Aniket Panchal',
+    role: 'Managing Director',
+    image: '/images/Aniket Panchal.jpg'
+  },
  
 ];
 
